@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Project
 
-## Getting Started
+![Portfolio App Screenshot](./screenshot.png)
 
-First, run the development server:
+This project is a portfolio site showcasing my skills, experiences, and projects. It's built using Next.js 13, React 18, Framer Motion, and TailwindCSS.
+
+Live Demo: [Portfolio Site](https://portfolio-site-wine-alpha.vercel.app/)
+
+GitHub Repository: [Portfolio Site GitHub](https://github.com/simbolmina/portfolio-site.git)
+
+## Features
+
+- Responsive Design
+- Smooth animations using Framer Motion
+- Count-up animations using `react-animated-numbers`
+- Server-Side Rendering enabled by Next.js
+- Highly customizable with TailwindCSS
+
+## Technologies Used
+
+- Next.js 13
+- React 18
+- Framer Motion 10.16.4
+- TailwindCSS 3
+- Heroicons 2.0.18
+
+## Local Development
+
+### Requirements
+
+- Node.js v14 or higher
+- Yarn or npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/simbolmina/portfolio-site.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd portfolio-site
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   # or using yarn
+   yarn install
+   ```
+
+### Running the Development Server
+
+Run the development server with:
 
 ```bash
 npm run dev
-# or
+# or using yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your web browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build and Start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build and start in production environment:
 
-## Learn More
+```bash
+npm run build
+npm run start
+# or using yarn
+yarn build
+yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app is deployed on Vercel. You can [view the live demo here](https://portfolio-site-wine-alpha.vercel.app/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
+This project was inspired by and adapted from the following tutorial:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js & TailwindCSS Portfolio Project](https://www.youtube.com/watch?v=Kb1f5bvF6f4)
